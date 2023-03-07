@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 public class HolidayServiceTest {
     @Test
-    public void testHolidayMonth(){
+    public void testHolidayMonth() {
         HolidayService service = new HolidayService();
 
         int expected = 2;
