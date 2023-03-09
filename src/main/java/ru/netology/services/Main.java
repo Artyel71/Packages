@@ -6,7 +6,8 @@ public class Main {
         HolidayService service = new HolidayService();
         int income = 100_000;
         int expenses = 60_000;
-        int months = service.calculate(income, expenses);
+        int amount = 150_000;
+        int months = service.calculate(income, expenses, amount);
         System.out.println("Months " + months);
     }
 }
